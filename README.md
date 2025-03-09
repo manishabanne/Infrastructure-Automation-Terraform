@@ -19,12 +19,12 @@ Terraform Code Structure
 Below is the directory structure of the Terraform code:
 
 Infrastructure-Automation-Terraform
-│
-├── main.tf           --> Contains the resource creation code (VM, VNet, Subnet, etc.)
-├── variables.tf      --> Contains input variables like Resource Group, VNet Name, etc.
-├── outputs.tf        --> Contains output variables like VM IP, etc.
-├── terraform.tfstate --> Terraform state file (auto-created after deployment)
-├── .gitignore        --> Ignore unwanted files (like tfstate) while pushing to GitHub
+
+main.tf           --> Contains the resource creation code (VM, VNet, Subnet, etc.)
+variables.tf      --> Contains input variables like Resource Group, VNet Name, etc.
+outputs.tf        --> Contains output variables like VM IP, etc.
+terraform.tfstate --> Terraform state file (auto-created after deployment)
+.gitignore        --> Ignore unwanted files (like tfstate) while pushing to GitHub
 
 Azure DevOps Pipeline Flow
 The CI/CD Pipeline Flow is as follows:
